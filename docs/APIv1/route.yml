@@ -394,7 +394,6 @@ routeResultNoRoutingReason:
       example: 'cannot calculate transit route with trRouting because of an error on server: MISSING_DATA_AGENCIES'
     code:
       type: string
-      enum: [ErrorCodes]
       example: 'TRROUTING_MISSING_DATA'
 
 singleRouteResponse:
